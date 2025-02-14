@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Everything below this comment are type selectors for specific elements */
+
+body {
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+    border-radius: 100px;
+    border-color: white;
+    border-style: solid;
+}
+
+/* Everything below the comment is for the "top" area */
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 48px;
+    margin-bottom: 32px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.logo {
+    font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    padding: 84px;
+    gap: 50px;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.intro-image {
+    height: 250px;
+    width: auto;
+}
+
+/* Everything below the comment is for the "info" area */
+
+.infoboxes-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.infoboxes-header {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.infoboxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    height: 266px;
+    width: auto;
+    margin-bottom: 8px; 
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+    padding: 8px;
+}
