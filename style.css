@@ -18,7 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
+    justify-content: center;
 }
 
 ul {
@@ -98,9 +99,10 @@ button {
 .infoboxes-sec {
     display: flex;
     flex-direction: column;
+    flex: auto;
     align-items: center;
     padding: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 200px;
 }
 
 .infoboxes-header {
@@ -131,4 +133,61 @@ button {
     border: 2px solid #3882F6;
     border-radius: 10%;
     padding: 8px;
+}
+
+/* Everything below the comment is for the "quote" area */
+
+.quote-sec {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 150px;
+    gap: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.the-quoted {
+    font-weight: 700;
+}
+
+/* Everything below the comment is for the "action" area */
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: #3882F6;
+    width: 852px;
+    border-radius: 25px;
+}
+
+.action-words {
+    color: white;
+}
+
+/* Everything below the comment is for the "footer" area */
+
+.footer {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
