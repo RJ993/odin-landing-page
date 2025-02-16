@@ -71,8 +71,8 @@ button {
 .introduction {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 84px;
-    gap: 50px;
 }
 
 .hero {
@@ -90,7 +90,7 @@ button {
 }
 
 .intro-image {
-    height: 250px;
+    height: 400px;
     width: auto;
 }
 
@@ -114,7 +114,8 @@ button {
 
 .infoboxes {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 500px;
     gap: 30px
 }
 
@@ -122,13 +123,14 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
 }
 
 .box {
     height: 266px;
-    width: auto;
+    width: 266px;
     margin-bottom: 8px; 
     border: 2px solid #3882F6;
     border-radius: 10%;
